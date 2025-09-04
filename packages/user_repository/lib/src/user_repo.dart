@@ -1,5 +1,7 @@
 import 'dart:nativewrappers/_internal/vm/lib/ffi_native_type_patch.dart';
 
+import 'models/models.dart';
+
 abstract class UserRepository{
   Stream<MyUser?> get user;
 
